@@ -146,21 +146,21 @@
 
 //Conditional statements switch
 
-let role = prompt('what is your role ?');
-switch (role)
-{
-    case 'admin':
-        document.write('Update, Delete , Create');
-        break;
-    case 'moderator':
-        document.write('Update, Create');
-        break;
-     case 'editor':
-        document.write('Update');
-        break;   
-    default:
-        document.write('hello user');
-}
+// let role = prompt('what is your role ?');
+// switch (role)
+// {
+//     case 'admin':
+//         document.write('Update, Delete , Create');
+//         break;
+//     case 'moderator':
+//         document.write('Update, Create');
+//         break;
+//      case 'editor':
+//         document.write('Update');
+//         break;   
+//     default:
+//         document.write('hello user');
+// }
 
 
 
@@ -224,4 +224,14 @@ switch (role)
 // }
 
 
+// llop (1) for loop
+
+//mohamed 1
+//mohamed 2
+//mohamed 3
+
+    // for(let i=1; i<=3; i++)
+    // {
+    //     console.log(`mohamed` +i);
+    // }    
 
