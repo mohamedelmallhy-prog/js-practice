@@ -138,7 +138,90 @@
 
 // طريقه اخرى لكتابه if
 
-let age = prompt('what is your age ?');
-let result = age >= 18 ? 'hello user' 
-:age == 18? 'you are 18 now' : 'No you are very young';
-console.log(result);
+// let age = prompt('what is your age ?');
+// let result = age >= 18 ? 'hello user' 
+// :age == 18? 'you are 18 now' : 'No you are very young';
+// console.log(result);
+
+
+//Conditional statements switch
+
+let role = prompt('what is your role ?');
+switch (role)
+{
+    case 'admin':
+        document.write('Update, Delete , Create');
+        break;
+    case 'moderator':
+        document.write('Update, Create');
+        break;
+     case 'editor':
+        document.write('Update');
+        break;   
+    default:
+        document.write('hello user');
+}
+
+
+
+//  الفرق بين if و switch
+
+//  if بنستخدمها لو عندنا شرط او مقارنه
+
+// let age = 20;
+
+// if(age >= 18){
+//     console.log("Adult");
+// }
+
+
+//  switch بنستخدمها لو عندنا حالات كتير لنفس القيمه
+
+// let day = 2;
+
+// switch(day){
+
+//     case 1:
+//         console.log("Saturday");
+//         break;
+
+//     case 2:
+//         console.log("Sunday");
+//         break;
+
+//     default:
+//         console.log("Unknown");
+// }
+
+
+//  الفرق بين if و switch
+
+//  if بنستخدمها لو عندنا شرط او مقارنه
+
+// let age = 20;
+
+// if(age >= 18){
+//     console.log("Adult");
+// }
+
+
+//  switch بنستخدمها لو عندنا حالات كتير لنفس القيمه
+
+// let day = 2;
+
+// switch(day){
+
+//     case 1:
+//         console.log("Saturday");
+//         break;
+
+//     case 2:
+//         console.log("Sunday");
+//         break;
+
+//     default:
+//         console.log("Unknown");
+// }
+
+
+
