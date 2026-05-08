@@ -104,8 +104,8 @@
     //   console.log(name);
 
 
-      let arr = ['mohamed','adel','mohamed' ,' amed'];
-      console.log(arr.reverse());
+    //   let arr = ['mohamed','adel','mohamed' ,' amed'];
+    //   console.log(arr.reverse());
 
 
 
@@ -121,16 +121,24 @@
 //     console.log('Hello');
 // }
 
-let role = prompt('what is your role ?');
-if (role == 'admin')
-{
-    document.write('Update, Delete , Create');
-}
-else if (role == 'moderator')
-{
-    document.write('Update, Create');
-}
-else
-{
-    document.write('hello user');
-}
+// let role = prompt('what is your role ?');
+// if (role == 'admin')
+// {
+//     document.write('Update, Delete , Create');
+// }
+// else if (role == 'moderator')
+// {
+//     document.write('Update, Create');
+// }
+// else
+// {
+//     document.write('hello user');
+// }
+
+
+// طريقه اخرى لكتابه if
+
+let age = prompt('what is your age ?');
+let result = age >= 18 ? 'hello user' 
+:age == 18? 'you are 18 now' : 'No you are very young';
+console.log(result);
