@@ -290,3 +290,19 @@
 
 //     console.log(users[i]);
 // }
+
+
+// while loop-do while loop (5)
+
+// let i=0;
+// while(i<3)
+// {
+//     document.write('<h1>Hello</h1>')
+//     i++;
+// }
+
+// let i=0;
+// do{
+//     document.write('hello');
+//     i++;
+// }while(i<3);
