@@ -248,3 +248,19 @@
     // {
     //     console.log(x[i]);
     // }
+
+    // nasted loop(3)
+//   let cars = ['BMW', 'Audi', 'Toyota'];
+
+// let models = ['2020', '2021', '2022'];
+
+// for(let i = 0; i < cars.length; i++)
+// {
+//     console.log(`cars: ${cars[i]}`);
+
+//     for(let j = 0; j < models.length; j++)
+//     {
+//         console.log(`models: ${models[j]}`);
+//     }
+//      console.log('-------------------');
+// }
