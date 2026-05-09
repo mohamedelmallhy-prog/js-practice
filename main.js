@@ -224,7 +224,7 @@
 // }
 
 
-// llop (1) for loop
+// loop (1) for loop
 
 //mohamed 1
 //mohamed 2
@@ -235,3 +235,16 @@
     //     console.log(`mohamed` +i);
     // }    
 
+// loop (2)
+
+    // let names = ['mohamed','adel','mohamed'];
+    // for(let i=0; i<names.length; i++)
+    // {
+    //     console.log(names[i]);
+    // }
+
+    // let x = 'mohamed';
+    // for(let i=0; i<x.length; i++)
+    // {
+    //     console.log(x[i]);
+    // }
