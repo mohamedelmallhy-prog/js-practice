@@ -266,34 +266,27 @@
 // }
 
 // break and continue (4)
-// let users = ['mohamed', 'adel', 1,2,3, 'mohamed', 'amed'];
-// for(let i=0 ; i<users.length;i++)
-// {
-//     if (typeof users[i]=='number')
-// {
-//     continue;
-// }
-// console.log(users[i]);
-// }
 
-// let users = ['mohamed', 'adel','mohamed', 'amed'];
-// for(let i=0 ; i<users.length;i++)
+// let users = ['mohamed', 'adel', 1,2,3, 'mohamed', 'amed'];
+
+// for(let i = 0; i < users.length; i++)
 // {
-//     if (typeof users[i]=='adel')
-// {
-//     continue;
-// }
-// console.log(users[i]);
+//     if(typeof users[i] == 'number')
+//     {
+//         continue;
+//     }
+
+//     console.log(users[i]);
 // }
 
 // let users = ['mohamed', 'adel', 'mohamed', 'amed'];
-// for(let i=0 ; i<users.length;i++)
-// {
-//     if (typeof users[i]!='adel')
-// {
-//     continue;
-// }
-// console.log(users[i]);
-// }
 
- 
+// for(let i = 0; i < users.length; i++)
+// {
+//     if(users[i] == 'adel')
+//     {
+//         break;
+//     }
+
+//     console.log(users[i]);
+// }
