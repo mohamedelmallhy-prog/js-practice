@@ -325,3 +325,19 @@ pro(200, 2.5, 10);
 pro(200, 2.6, 10);
 pro(300, 2.7, 10);
 pro(400, 2.5, 40);
+
+// return in function (2)
+function days (age)
+{
+    let result = age * 365;
+    return result;
+}
+let day = days(19);
+
+function calcAgeByHours (age)
+{
+    let result = age * 365 * 24;
+    return result;
+}
+let hour = calcAgeByHours(19);
+console.log(hour + ' hours');
