@@ -44,7 +44,7 @@ let name="mohamed";
 let age=19;
 console.log(`my name is ${name} and I am ${age} years old`)
 
-let name=10;
+let num = 10;
     name -= 5;
     console.log(name);
 
@@ -209,19 +209,19 @@ if(age >= 18){
 
 let day = 2;
 
-switch(day){
+// switch(day){
 
-    case 1:
-        console.log("Saturday");
-        break;
+//     case 1:
+//         console.log("Saturday");
+//         break;
 
-    case 2:
-        console.log("Sunday");
-        break;
+//     case 2:
+//         console.log("Sunday");
+//         break;
 
-    default:
-        console.log("Unknown");
-}
+//     default:
+//         console.log("Unknown");
+// }
 
 
 // loop (1) for loop
@@ -307,5 +307,21 @@ do{
     i++;
 }while(i<3);
 
+// function(1)
+function calcAge (age)
+{
+    let result = age * 365;
+    console .log(result);
+}
+calcAge(19);
 
-
+function pro(price, taxes, ads)
+{
+    let product = price + taxes;
+    let result = product + ads;
+    console.log(result);
+}
+pro(200, 2.5, 10);
+pro(200, 2.6, 10);
+pro(300, 2.7, 10);
+pro(400, 2.5, 40);
